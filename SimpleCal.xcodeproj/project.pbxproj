@@ -14,6 +14,10 @@
 		FBB08BA51BDDA96700C15EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB08BA31BDDA96700C15EEC /* LaunchScreen.storyboard */; };
 		FBB08BB01BDDA96800C15EEC /* SimpleCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB08BAF1BDDA96800C15EEC /* SimpleCalTests.swift */; };
 		FBB08BBB1BDDA96800C15EEC /* SimpleCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB08BBA1BDDA96800C15EEC /* SimpleCalUITests.swift */; };
+		FBBE33B41BDDBBAB006F248E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBE33B31BDDBBAB006F248E /* Storyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FBBE33B61BDDC5E9006F248E /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE33B51BDDC5E8006F248E /* MasterTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FBBE33B81BDDC693006F248E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE33B71BDDC693006F248E /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FBBE33BA1BDDC6E7006F248E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE33B91BDDC6E7006F248E /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FBB08BB61BDDA96800C15EEC /* SimpleCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB08BBA1BDDA96800C15EEC /* SimpleCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalUITests.swift; sourceTree = "<group>"; };
 		FBB08BBC1BDDA96800C15EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBE33B31BDDBBAB006F248E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FBBE33B51BDDC5E8006F248E /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		FBBE33B71BDDC693006F248E /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		FBBE33B91BDDC6E7006F248E /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				FBB08B9A1BDDA96700C15EEC /* AppDelegate.swift */,
+				FBBE33B51BDDC5E8006F248E /* MasterTableViewController.swift */,
+				FBBE33B71BDDC693006F248E /* AddViewController.swift */,
+				FBBE33B91BDDC6E7006F248E /* EventViewController.swift */,
 				FBB08B9C1BDDA96700C15EEC /* ViewController.swift */,
 				FBB08B9E1BDDA96700C15EEC /* Main.storyboard */,
+				FBBE33B31BDDBBAB006F248E /* Storyboard.storyboard */,
 				FBB08BA11BDDA96700C15EEC /* Assets.xcassets */,
 				FBB08BA31BDDA96700C15EEC /* LaunchScreen.storyboard */,
 				FBB08BA61BDDA96700C15EEC /* Info.plist */,
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB08BA51BDDA96700C15EEC /* LaunchScreen.storyboard in Resources */,
+				FBBE33B41BDDBBAB006F248E /* Storyboard.storyboard in Resources */,
 				FBB08BA21BDDA96700C15EEC /* Assets.xcassets in Resources */,
 				FBB08BA01BDDA96700C15EEC /* Main.storyboard in Resources */,
 			);
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBE33BA1BDDC6E7006F248E /* EventViewController.swift in Sources */,
 				FBB08B9D1BDDA96700C15EEC /* ViewController.swift in Sources */,
+				FBBE33B61BDDC5E9006F248E /* MasterTableViewController.swift in Sources */,
+				FBBE33B81BDDC693006F248E /* AddViewController.swift in Sources */,
 				FBB08B9B1BDDA96700C15EEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +500,7 @@
 				FBB08BC11BDDA96800C15EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBB08BC21BDDA96800C15EEC /* Build configuration list for PBXNativeTarget "SimpleCalTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				FBB08BC41BDDA96800C15EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBB08BC51BDDA96800C15EEC /* Build configuration list for PBXNativeTarget "SimpleCalUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				FBB08BC71BDDA96800C15EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
